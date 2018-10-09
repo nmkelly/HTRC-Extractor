@@ -11,6 +11,10 @@ If you run into issues with package dependencies, run the script in maintenance 
 
 You will need to make sure you extract your initial HTRC corpus before running this script. After this extraction, you should have a collection of folders containing .json and .zip files. 
 
+To run the script, open the folder containing the script in the Linux terminal (or navigate to that folder in the terminal). Run the following command: 
+
+  python3 HTRCExtractor-Release.py
+
 When you activate the script, it will ask you to specify three folders.
 1) The directory in which your corpus files are contained. This folder should contain all your volumes as compressed archives in subfolders.
 2) The directory in which you would like your pages, full text, and metadata files placed. This will be created and organized as a author/volume folder and subfolder structure. Each volumes' full, assembled text will be saved here as "full.txt"
