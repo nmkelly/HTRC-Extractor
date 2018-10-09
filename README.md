@@ -1,6 +1,8 @@
 # HTRC-Extractor
 HTRC Archive Extractor and Corpus Builder
+
 Nicholas M Kelly, University of Iowa
+
 nicholas-kelly@uiowa.ed
 
 This python script should automate the process of extracting, organizing, and concatenating the individual HTRC volume archives into complete and assembled .txt volumes. 
