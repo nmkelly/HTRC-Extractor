@@ -3,7 +3,7 @@ HTRC Archive Extractor and Corpus Builder
 
 Nicholas M Kelly, University of Iowa
 
-nicholas-kelly@uiowa.ed
+nicholas-kelly@uiowa.edu
 
 This python script should automate the process of extracting, organizing, and concatenating the individual HTRC volume archives into complete and assembled .txt volumes. 
 
@@ -21,6 +21,10 @@ When you activate the script, it will ask you to specify three folders.
 3) The directory in which you would like your collected full text files placed. This will be all of you volumes' full text files assembled together. Each will be named after its HTRC ID Number, something like "1234567.txt"
 
 In the code for this script, you will find a section marked where you can insert your own text analysis functions. This will allow you to combine metadata pulled by this script with any text mining data you are intersted in. Some sample code for opening the txt file is included.
+
+If you find the script is crashing on a specific folder in your archive, check to see that the folder is not missing its .json or .zip files. If it is, remove it and try again. 
+
+A more detailed walkthrough of using this tool can be found on my blog, newreadia.wordpress.com
 
 If you have any questions, suggestions, bug reports, etc... Please contact me at nicholas-kelly@uiowa.edu
 
